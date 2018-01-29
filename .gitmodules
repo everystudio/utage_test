@@ -1,0 +1,3 @@
+[submodule "Assets/everystudio-library"]
+	path = Assets/everystudio-library
+	url = git@github.com:everystudio/everystudio-library.git
