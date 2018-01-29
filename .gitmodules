@@ -1,6 +1,3 @@
 [submodule "Assets/everystudio-library"]
 	path = Assets/everystudio-library
 	url = https://everystudio@github.com/everystudio/everystudio-library
-[submodule "Assets/tokimeki.Resources"]
-	path = Assets/tokimeki.Resources
-	url = https://everystudio@github.com/everystudio/tokimeki.Resources
