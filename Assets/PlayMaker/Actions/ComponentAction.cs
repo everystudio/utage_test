@@ -12,7 +12,7 @@
 #endif
 
 using UnityEngine;
-
+#pragma warning disable 0618
 namespace HutongGames.PlayMaker.Actions
 {
     // Base class for actions that access a Component on a GameObject.

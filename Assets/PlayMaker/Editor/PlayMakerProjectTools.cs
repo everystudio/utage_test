@@ -30,7 +30,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 #endif
 using UnityEngine;
-
+#pragma warning disable 0618
 namespace HutongGames.PlayMakerEditor
 {
     public class ProjectTools

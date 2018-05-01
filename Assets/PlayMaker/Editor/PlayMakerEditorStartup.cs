@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEditor;
 using System.Reflection;
-
+#pragma warning disable 0618
 namespace HutongGames.PlayMakerEditor
 {
     /// <summary>

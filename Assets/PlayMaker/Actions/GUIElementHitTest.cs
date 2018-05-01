@@ -1,7 +1,7 @@
 // (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
 
 using UnityEngine;
-
+#pragma warning disable 0618
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.GUIElement)]

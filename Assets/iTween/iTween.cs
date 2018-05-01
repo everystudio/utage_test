@@ -42,7 +42,7 @@ using System.Collections;
 using System.Reflection;
 using UnityEngine;
 #endregion
-
+#pragma warning disable 0618
 /// <summary>
 /// <para>Version: 2.0.44</para>	 
 /// <para>Author: Bob Berkebile (http://pixelplacement.com)</para>

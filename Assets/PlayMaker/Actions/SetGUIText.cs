@@ -2,6 +2,8 @@
 
 using UnityEngine;
 
+#pragma warning disable 0618
+
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.GUIElement)]
