@@ -1,0 +1,521 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9856eecfcd6b8df42ac2ebd73cc36dff, type: 3}
+  m_Name: SampleChapter2.book
+  m_EditorClassIdentifier: 
+  importVersion: 0
+  importGridList:
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      - English
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Bg
+      - "\u80CC\u666F\u305D\u306E2"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Bgm
+      - "BGM\u305D\u306E2"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - 
+      - "\u30E9\u30F3"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "2\u7AE0\u958B\u59CB\u3067\u3059"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - Bg
+      - "\u80CC\u666F\u305D\u306E1"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - Bgm
+      - "BGM\u305D\u306E1"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - 
+      - "\u3046\u305F\u3053"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5F8C\u306E\u7AE0\u3067\u306F\u524D\u306E\u7AE0\u306E\u30C7\u30FC\u30BF\u3092\u4F7F\u3046\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u524D\u306E\u7AE0\u3067\u3001\u5F8C\u306E\u7AE0\u306E\u30C7\u30FC\u30BF\u3092\u4F7F\u3046\u3053\u3068\u306F\u3067\u304D\u307E\u305B\u3093\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30EC\u30A4\u30E4\u30FC\u8A2D\u5B9A\u3084\u30D1\u30E9\u30E1\u30FC\u30BF\u30FC\u3082\u524D\u306E\u7AE0\u306E\u3082\u306E\u3092\u5F15\u304D\u7D99\u3044\u3067\u3044\u308B\u306E\u3067\u6CE8\u610F\u3057\u3066\u304F\u3060\u3055\u3044"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 10
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30D1\u30E9\u30E1\u30FC\u30BF\u30FC\u306E\u5185\u5BB9\u3092\u524D\u7AE0\u304B\u3089\u5F15\u304D\u7D99\u3050\u5834\u5408\u306F\u3001\u30B5\u30F3\u30D7\u30EB\u30B9\u30AF\u30EA\u30D7\u30C8\u3092\u53C2\u7167\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 11
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30D1\u30E9\u30E1\u30FC\u30BF\u30FC\u306E\u8868\u793A\u3002<param=player_name>"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:Chapter2
+    type: 1
+    textLength: 264
+    headerRow: 0
+    entityIndexTbl: 
+    entityDataList: []
+  gridList:
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - CharacterName
+      - NameText
+      - Pattern
+      - Pivot
+      - Scale
+      - Conditional
+      - ReadWrite
+      - FileName
+      - FileType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u30E9\u30F3"
+      - "\u30E9\u30F3"
+      - "\u901A\u5E38"
+      - Bottom
+      - 
+      - 
+      - 
+      - Run/run.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:Character
+    type: 1
+    textLength: 97
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Type
+      - Pivot
+      - Scale
+      - Conditional
+      - ReadWrite
+      - FileName
+      - FileType
+      - Thumbnail
+      - CgCategolly
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u80CC\u666F\u305D\u306E2"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - TutorialBg2.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:Texture
+    type: 1
+    textLength: 97
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Title
+      - Type
+      - FileName
+      - Streaming
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "BGM\u305D\u306E2"
+      - "\u30DD\u30EB\u30AB"
+      - Bgm
+      - SpazzmaticaPolka.mp3
+      - TRUE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:Sound
+    type: 1
+    textLength: 67
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - LayerName
+      - Type
+      - X
+      - Y
+      - Order
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:Layer
+    type: 1
+    textLength: 20
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Type
+      - Value
+      - FileType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - system_value1
+      - Int
+      - 0
+      - System
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - value1
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:Param
+    type: 1
+    textLength: 55
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Name
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Type
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - FileType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:ParamTbl{}
+    type: 1
+    textLength: 16
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - ScenarioLabel
+      - Title
+      - Thumbnail
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:SceneGallery
+    type: 1
+    textLength: 27
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Key
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:Localize
+    type: 1
+    textLength: 3
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:Macro
+    type: 1
+    textLength: 58
+    headerRow: 0
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      - English
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Bg
+      - "\u80CC\u666F\u305D\u306E2"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Bgm
+      - "BGM\u305D\u306E2"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - 
+      - "\u30E9\u30F3"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "2\u7AE0\u958B\u59CB\u3067\u3059"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - Bg
+      - "\u80CC\u666F\u305D\u306E1"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - Bgm
+      - "BGM\u305D\u306E1"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - 
+      - "\u3046\u305F\u3053"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5F8C\u306E\u7AE0\u3067\u306F\u524D\u306E\u7AE0\u306E\u30C7\u30FC\u30BF\u3092\u4F7F\u3046\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u524D\u306E\u7AE0\u3067\u3001\u5F8C\u306E\u7AE0\u306E\u30C7\u30FC\u30BF\u3092\u4F7F\u3046\u3053\u3068\u306F\u3067\u304D\u307E\u305B\u3093\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30EC\u30A4\u30E4\u30FC\u8A2D\u5B9A\u3084\u30D1\u30E9\u30E1\u30FC\u30BF\u30FC\u3082\u524D\u306E\u7AE0\u306E\u3082\u306E\u3092\u5F15\u304D\u7D99\u3044\u3067\u3044\u308B\u306E\u3067\u6CE8\u610F\u3057\u3066\u304F\u3060\u3055\u3044"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30D1\u30E9\u30E1\u30FC\u30BF\u30FC\u306E\u5185\u5BB9\u3092\u524D\u7AE0\u304B\u3089\u5F15\u304D\u7D99\u3050\u5834\u5408\u306F\u3001\u30B5\u30F3\u30D7\u30EB\u30B9\u30AF\u30EA\u30D7\u30C8\u3092\u53C2\u7167\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30D1\u30E9\u30E1\u30FC\u30BF\u30FC\u306E\u8868\u793A\u3002<param=player_name>"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter2.xls:Chapter2
+    type: 1
+    textLength: 264
+    headerRow: 0

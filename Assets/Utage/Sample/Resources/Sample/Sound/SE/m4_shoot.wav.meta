@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: c8d3eba7a757b7646b0cbed1cfce6d6f
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 0
+    quality: 0.17
+    conversionMode: 0
+  platformSettingOverrides:
+    13:
+      loadType: 1
+      sampleRateSetting: 2
+      sampleRateOverride: 44100
+      compressionFormat: 7
+      quality: 0.17
+      conversionMode: 0
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 0
+  userData: 
+  assetBundleName: sound/se/m4_shoot.asset
+  assetBundleVariant: 
