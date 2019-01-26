@@ -56,6 +56,7 @@ namespace Utage
 			{
 				UnityEngine.Profiling.Profiler.BeginSample("ReadBook");
 				ISheet sheet = book.GetSheetAt(i);
+				Debug.Log(sheet.SheetName);
 				StringGrid grid = ReadSheet(sheet, path, ignoreSheetMark, parseFormula, parseNumreic);
 				gridDictionary.Add(new StringGridDictionaryKeyValue(sheet.SheetName, grid));
 				UnityEngine.Profiling.Profiler.EndSample();

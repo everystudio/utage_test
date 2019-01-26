@@ -148,12 +148,27 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u53F3\u3078"
+      - "\u53F3\u3078a"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 9
       debugIndex: 9
+      strings:
+      - 
+      - "\u767D\u91D1"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - test
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
       strings:
       - EndScenario
       isEmpty: 0
@@ -161,7 +176,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/scenario/testscenario/testscenario.xls:Start
     type: 1
-    textLength: 164
+    textLength: 175
     headerRow: 0
     entityIndexTbl: 
     entityDataList: []
@@ -752,21 +767,30 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u53F3\u3078"
+      - "\u53F3\u3078a"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 9
       debugIndex: 9
       strings:
-      - EndScenario
+      - 
+      - "\u767D\u91D1"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - test
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 10
       debugIndex: 10
-      strings: []
-      isEmpty: 1
+      strings:
+      - EndScenario
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 11
@@ -789,5 +813,5 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/scenario/testscenario/testscenario.xls:Start
     type: 1
-    textLength: 164
+    textLength: 175
     headerRow: 0

@@ -33,6 +33,8 @@ namespace Utage
 			{
 				foreach (var sheet in sheets.List)
 				{
+					Debug.Log(sheet.Grid.SheetName);
+					Debug.Log(sheet.Grid);
 					if (AdvSheetParser.IsSettingsSheet(sheet.Grid.SheetName))
 					{
 						SettingsSheets.Add(sheet.Grid);

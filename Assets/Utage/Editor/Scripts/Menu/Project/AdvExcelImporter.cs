@@ -131,6 +131,7 @@ namespace Utage
 		//対象のエクセルファイルを全て読み込み
 		StringGridDictionary ReadExcel(string path)
 		{
+			Debug.Log(path);
 			StringGridDictionary book = ExcelParser.Read(path, '#', Project.ParseFormula, Project.ParseNumreic);
 			book.RemoveSheets(@"^#");
 			return book;
