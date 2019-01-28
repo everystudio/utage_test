@@ -71,6 +71,8 @@ namespace Utage
 
 		internal void OverwriteData(TextAsset tsv)
 		{
+			// 言語関連？
+			//Debug.Log(string.Format("OverwriteData:name={0} text={1}",tsv.name,tsv.text));
 			OverwriteData(new StringGrid( tsv.name, CsvType.Tsv, tsv.text) );
 		}
 

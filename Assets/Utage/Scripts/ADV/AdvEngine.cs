@@ -302,6 +302,7 @@ namespace Utage
 		/// <param name="rootDirResource">リソースディレクトリ</param>
 		public void BootFromExportData(AdvImportScenarios scenarios, string resourceDir)
 		{
+			Debug.Log("BootFromExportData:"+resourceDir);
 			this.gameObject.SetActive(true);
 			StopAllCoroutines();
 			StartCoroutine(CoBootFromExportData(scenarios, resourceDir));

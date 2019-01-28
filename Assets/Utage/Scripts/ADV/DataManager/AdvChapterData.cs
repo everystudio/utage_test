@@ -64,12 +64,30 @@ namespace Utage
 			{
 				foreach (var sheet in book.ImportGridList)
 				{
+					Debug.Log(sheet.SheetName);
 					if (scenarioDataTbl.ContainsKey(sheet.SheetName))
 					{
 						Debug.LogErrorFormat("{0} is already contains", sheet.SheetName);
 						continue;
 					}
 					Profiler.BeginSample("new Scenario");
+
+					/*
+					ここでシナリオデータを編集すると、入れ替え可能っぽい
+					sheet.Rows[4].Strings[0] = "";
+					for( int a = 0 ; a < 3 ; a++){
+						List<string> sample_message = new List<string>();
+						for( int i = 0 ; i < 8 ; i++){
+							sample_message.Add("");
+						}
+						sample_message.Add("追加テスト:"+a.ToString());
+						sheet.AddRow(sample_message);
+					}
+					List<string> end_message = new List<string>();
+					end_message.Add("EndScenario");
+					sheet.AddRow(end_message);
+					*/
+
 					sheet.InitLink();
 					AdvScenarioData scenario = new AdvScenarioData(sheet);
 					scenarioDataTbl.Add(sheet.SheetName, scenario);
