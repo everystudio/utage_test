@@ -56,7 +56,7 @@ namespace Utage
 			{
 				UnityEngine.Profiling.Profiler.BeginSample("ReadBook");
 				ISheet sheet = book.GetSheetAt(i);
-				Debug.Log(sheet.SheetName);
+				//Debug.Log(sheet.SheetName);
 				StringGrid grid = ReadSheet(sheet, path, ignoreSheetMark, parseFormula, parseNumreic);
 				gridDictionary.Add(new StringGridDictionaryKeyValue(sheet.SheetName, grid));
 				UnityEngine.Profiling.Profiler.EndSample();
@@ -138,6 +138,10 @@ namespace Utage
 							}
 						}
 					}
+				}
+				int test_cell = 0;
+				foreach(string view in stringList ){
+					Debug.Log(string.Format("row:{0} cell:{1} value:{2}",rowIndex , test_cell++, view));
 				}
 				grid.AddRow(stringList);
 			}

@@ -42,7 +42,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:Character
+    name: Assets/scenario/test/test.xls:Character
     type: 1
     textLength: 154
     headerRow: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:Texture
+    name: Assets/scenario/test/test.xls:Texture
     type: 1
     textLength: 112
     headerRow: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:Particle
+    name: Assets/scenario/test/test.xls:Particle
     type: 1
     textLength: 13
     headerRow: 0
@@ -110,7 +110,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:Layer
+    name: Assets/scenario/test/test.xls:Layer
     type: 1
     textLength: 109
     headerRow: 0
@@ -136,7 +136,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:EyeBlink
+    name: Assets/scenario/test/test.xls:EyeBlink
     type: 1
     textLength: 112
     headerRow: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:LipSynch
+    name: Assets/scenario/test/test.xls:LipSynch
     type: 1
     textLength: 106
     headerRow: 0
@@ -258,7 +258,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:Animation
+    name: Assets/scenario/test/test.xls:Animation
     type: 1
     textLength: 93
     headerRow: 0
@@ -275,7 +275,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:Sound
+    name: Assets/scenario/test/test.xls:Sound
     type: 1
     textLength: 37
     headerRow: 0
@@ -290,7 +290,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:Param
+    name: Assets/scenario/test/test.xls:Param
     type: 1
     textLength: 22
     headerRow: 0
@@ -316,7 +316,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:ParamTbl{}
+    name: Assets/scenario/test/test.xls:ParamTbl{}
     type: 1
     textLength: 16
     headerRow: 0
@@ -330,7 +330,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:SceneGallery
+    name: Assets/scenario/test/test.xls:SceneGallery
     type: 1
     textLength: 27
     headerRow: 0
@@ -342,7 +342,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/test/test.xls:Localize
+    name: Assets/scenario/test/test.xls:Localize
     type: 1
     textLength: 3
     headerRow: 0

@@ -36,10 +36,31 @@ namespace Utage
 		//起動時初期化
 		public void BootInit(AdvSettingDataManager settingDataManager)
 		{
+			// エクセルの読み込み直しでも呼ばれてる
+			Debug.Log("BootInit");
 			IsInited = true;
 			//設定データの初期化
+			bool check = false;
 			foreach (var grid in settingList)
 			{
+				foreach( var v in grid.Rows){
+					int test_index = 0;
+					foreach( string temp in v.Strings){
+						Debug.Log(temp);
+
+						if( temp.Equals("怒り") == true){
+							Debug.LogWarning("true up");
+							check = true;
+						}
+
+						if( check == true && temp.Equals("-200")){
+							Debug.LogWarning("変更");
+							v.Strings[test_index] = "0";
+							check = false;
+						}
+						test_index += 1;
+					}
+				}
 				IAdvSetting data = AdvSheetParser.FindSettingData(settingDataManager, grid.SheetName);
 				if (data != null)
 				{
