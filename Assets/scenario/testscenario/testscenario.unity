@@ -3607,9 +3607,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.3188406
+    y: 0.31238273
     width: 1
-    height: 0.3623188
+    height: 0.37523454
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -8683,6 +8683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 669243365}
   - component: {fileID: 669243364}
+  - component: {fileID: 669243366}
   m_Layer: 0
   m_Name: AdvEngine Starter
   m_TagString: Untagged
@@ -8712,6 +8713,8 @@ MonoBehaviour:
   scenariosName: 
   useChapter: 0
   chapterNames: []
+  update_book_list:
+  - {fileID: 669243366}
   version: 1
   scenarioDataProject: {fileID: 11400000, guid: 10ac59d27e54cdf49b5ca59b83d07f33,
     type: 2}
@@ -8728,6 +8731,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &669243366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 669243363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717579d947e6942f4af4a5a998021b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  book: {fileID: 11400000, guid: 789c3ab465d7a7f448590a1339d888ec, type: 2}
+  spread_sheet: 1dw6Wi-zPwn_F9ZR8MBJUaI-Qpn5s_2lSJWDcUXg7lBA
+  tab_name: Start
 --- !u!1 &687759302
 GameObject:
   m_ObjectHideFlags: 0
@@ -18414,9 +18431,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.3188406
+    y: 0.31238273
     width: 1
-    height: 0.3623188
+    height: 0.37523454
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

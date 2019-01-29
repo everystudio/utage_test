@@ -111,10 +111,17 @@ namespace Utage
 			}
 		}
 
+		public List<UpdateScenarioBook> update_book_list;
+
 
 		//シナリオをロード
 		public IEnumerator LoadEngineAsync(Action onFailed)
 		{
+			if( update_book_list != null && 0 < update_book_list.Count){
+				foreach( UpdateScenarioBook book in update_book_list){
+					yield return book.ScenarioUpdate();
+				}
+			}
 			yield return LoadEngineAsyncSub(false, onFailed);
 		}
 
