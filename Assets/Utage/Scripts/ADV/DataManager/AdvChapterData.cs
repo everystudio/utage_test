@@ -43,6 +43,7 @@ namespace Utage
 			bool check = false;
 			foreach (var grid in settingList)
 			{
+				/*
 				foreach( var v in grid.Rows){
 					int test_index = 0;
 					foreach( string temp in v.Strings){
@@ -61,6 +62,7 @@ namespace Utage
 						test_index += 1;
 					}
 				}
+				*/
 				IAdvSetting data = AdvSheetParser.FindSettingData(settingDataManager, grid.SheetName);
 				if (data != null)
 				{

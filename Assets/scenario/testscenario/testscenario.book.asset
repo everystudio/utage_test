@@ -43,7 +43,10 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5909\u66F4\u30C6\u30B9\u30C8\u958B\u59CB"
+      - "\u30B9\u30D7\u30EC\u30C3\u30C9\u30B7\u30FC\u30C8\u30C6\u30B9\u30C8"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -58,7 +61,10 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5909\u66F4\u30C6\u30B9\u30C8\u7D42\u4E86"
+      - "\u5909\u66F4\u76F4\u5F8C\u306B\u53CD\u6620\u3055\u308C\u308B\u30C6\u30B9\u30C8"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -73,12 +79,33 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "<color=red>\u8272\u3092\u8D64\u306B</color>\u3057\u3066\u307F\u307E\u3057\u305F"
+      - "\u30A2\u30D7\u30EA\u3067\u306E\u53CD\u6620\u30C6\u30B9\u30C8"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 4
       debugIndex: 4
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "<color=red>\u8272\u3092\u8D64\u306B</color>\u3057\u3066\u307F\u307E\u3057\u305F"
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
       strings:
       - 
       - "\u51B7\u6CC9"
@@ -88,12 +115,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u30AD\u30E3\u30E9\u304C\u8868\u793A\u3055\u308C\u307E\u3059"
+      - "\u81EA\u5B85\u3067\u518D\u30C1\u30A7\u30C3\u30AF"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 5
-      debugIndex: 5
+    - rowIndex: 6
+      debugIndex: 6
       strings:
       - 
       - "\u51B7\u6CC9"
@@ -104,11 +134,14 @@ MonoBehaviour:
       - 
       - 
       - "\u6012\u3063\u305F"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 6
-      debugIndex: 6
+    - rowIndex: 7
+      debugIndex: 7
       strings:
       - 
       - "\u51B7\u6CC9"
@@ -119,11 +152,14 @@ MonoBehaviour:
       - 
       - 
       - "\u666E\u901A\u306B\u623B\u308B"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 7
-      debugIndex: 7
+    - rowIndex: 8
+      debugIndex: 8
       strings:
       - 
       - "\u51B7\u6CC9"
@@ -134,21 +170,9 @@ MonoBehaviour:
       - 
       - 
       - "\u5DE6\u3078"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 8
-      debugIndex: 8
-      strings:
-      - 
-      - "\u767D\u91D1"
-      - 
-      - "\u30AD\u30E3\u30E9\u53F3"
       - 
       - 
       - 
-      - 
-      - "\u53F3\u3078"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -163,20 +187,52 @@ MonoBehaviour:
       - 
       - 
       - 
-      - afeaea
+      - "\u53F3\u3078"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 10
       debugIndex: 10
       strings:
+      - 
+      - "\u767D\u91D1"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - afeaea
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
       - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     name: Assets/scenario/testscenario/testscenario.xls:Start
     type: 1
-    textLength: 176
+    textLength: 370
     headerRow: 0
     entityIndexTbl: 
     entityDataList: []
@@ -215,7 +271,7 @@ MonoBehaviour:
       - 
       - "\u901A\u5E38"
       - 
-      - -201
+      - -200
       - 
       - 
       - 
@@ -231,7 +287,7 @@ MonoBehaviour:
       - 
       - "\u6012\u308A"
       - 
-      - 0
+      - -200
       - 
       - 
       - 
