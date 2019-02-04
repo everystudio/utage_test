@@ -1,3 +1,6 @@
 [submodule "Assets/everystudio-library"]
 	path = Assets/everystudio-library
 	url = git@github.com:everystudio/everystudio-library.git
+[submodule "Assets/Utage"]
+	path = Assets/Utage
+	url = git@github.com:everystudio/Utage.git
