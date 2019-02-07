@@ -106,9 +106,63 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - "\u30A2\u30F3\u30CD\u30EA\u30FC\u30BC"
+      - 
+      - "\u666E\u901A"
+      - 
+      - -700
+      - 
+      - Bottom
+      - 
+      - 
+      - anneliese.asset
+      - normal01_01
+      - Dicing
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - 
+      - 
+      - "\u7B11\u98541"
+      - 
+      - -700
+      - 
+      - Bottom
+      - 
+      - 
+      - anneliese.asset
+      - smile01_01
+      - Dicing
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - 
+      - 
+      - "\u7B11\u98542"
+      - 
+      - -700
+      - 
+      - Bottom
+      - 
+      - 
+      - anneliese.asset
+      - smile02_01
+      - Dicing
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/scenario/testscenario/testscenario.xls:Character
     type: 1
-    textLength: 257
+    textLength: 395
     headerRow: 0
   - rows:
     - rowIndex: 0
