@@ -36,6 +36,7 @@ temp_c/*
 /*.~lock*
 
 *.csv#
+*.xls#
 
 */*.apk
 
