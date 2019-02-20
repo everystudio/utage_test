@@ -1267,9 +1267,39 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u904B\u52D5\u5834\u30FB\u5915\u65B9"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - BG043_2.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u904B\u52D5\u5834\u30FB\u591C"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - BG043_3.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/scenario/testscenario/testscenario.xls:Texture
     type: 1
-    textLength: 112
+    textLength: 149
     headerRow: 0
   - rows:
     - rowIndex: 0
